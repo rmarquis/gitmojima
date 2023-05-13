@@ -37,3 +37,25 @@ covering most use cases for enhanced productivity.
 | 🔖 | `:bookmark:`                  | Tag or deploy code |
 | ⏪️ | `:rewind:`                    | Revert changes |
 | 🔀 | `:twisted_rightwards_arrows:` | Merge branches |
+
+## Gitmoji comparison
+
+* only 12 emojis vs 73+
+* concise shortcodes for ease of use
+* 10 main categories for development
+    * ⚡️ for any kind of enhancement (covers ⚡️,💄,📈,🌐,✏️,👽️,🍱,♿️,💡,💬,🗃️,🔊,🔇,🚸,📱,🥚,🔍️,🌱,🚩,💫,🛂,👔,🩺,🧑‍💻,🧵,🦺)
+    * 🐛 for all fixes (covers 🐛,🚑️,🔒️,🥅,🩹)
+    * ✨ for new features (covers ✨,🎉,💩,💥)
+    * 📝 for documentation and license (covers 📝,📄,💸)
+    * 🔧 for configuration and development files (covers 🔧,🔨,🙈)
+    * 🧱 for infrastructure (covers 👷,💚,🧱)
+    * 🧪 for tests (covers ✅,🧪,🤡)
+    * ♻️ for refactoring (covers 🎨,🔥,🚨,♻️,🚚,🏗️,🗑️,⚰️)
+    * 📦️ for dependency management (covers ➕,➖,⬇️,⬆️,📌)
+    * 🔖 for version tags and deployment (covers 🚀,🔖)
+* 2 categories for git operations
+    * ⏪️ and 🔀 (unchanged)
+* not covered because they:
+    * are only aimed at features or exploratory branches (🚧,⚗️,🧐)
+    * are not part of a typical or sane git workflow (🔐,🍻,📦️,📸)
+    * are not self explanatory in how they should be actually used (👥,🏷️)
