@@ -38,6 +38,27 @@ covering most use cases for enhanced productivity.
 | ⏪️ | `:rewind:`                    | Revert changes |
 | 🔀 | `:twisted_rightwards_arrows:` | Merge branches |
 
+## Example of usage
+
+To benefit from an explicit commit history, make use of the [Conventional Commits specification](https://www.conventionalcommits.org/en/v1.0.0/#summary)
+structure.
+
+The commit message should be structured as follows:
+
+```
+<emoji> [scope?][:?] <description>
+
+[body?]
+
+[footer(s)?]
+```
+
+- `emoji`: An emoji from the list.
+- `scope`: An optional string that adds contextual information for the scope of the change.
+- `description`: A brief explanation of the change.
+- `body`: An optional longer explanation of the change.
+- `footer(s)`: optional strings that reflect an important information.
+
 ## Gitmoji comparison
 
 * only 12 emojis vs 73+
