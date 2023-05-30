@@ -80,3 +80,8 @@ The commit message should be structured as follows:
     * are only aimed at features or exploratory branches (🚧,⚗️,🧐)
     * are not part of a typical or sane git workflow (🔐,🍻,📦️,📸)
     * are not self explanatory in how they should be actually used (👥,🏷️)
+
+## References
+
+* [Conventional Commits](https://www.conventionalcommits.org/)
+* [How to Write a Git Commit Message](https://cbea.ms/git-commit/)
