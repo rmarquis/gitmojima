@@ -10,16 +10,17 @@ exist, stand out and have meaning.
 
 ## Purpose
 
-[gitmoji](https://gitmoji.dev/) is a loosely visual implementation of [Conventional Commits](https://www.conventionalcommits.org/),
-a specification for adding human and machine readable meaning to commit messages.
+[gitmoji](https://gitmoji.dev/) enhances commit message readability by using emojis. However, the
+current gitmoji set consists of an extensive collection of 73 items, leading to several challenges:
 
-The current set of gitmoji however stands at 73 items already, with more being added over time.
-This high number of available emojis allows for finer granularity, but it is intimidating to make
-efficient use of and also causes cognitive hindrance that makes commit history harder to navigate.
+* It is overwhelming and causes cognitive hindrance when efficiently using them.
+* Navigating the commit history becomes challenging due to the sheer volume of emojis.
+* Its abundance of emojis often leads to confusion and difficulty in understanding their intended meaning.
+* The lack of clarity in provided emoji usage explanations hinders standardization.
 
-**gitmojima** is an attempt to select only a very minimal number of emojis while still
-covering most use cases for enhanced productivity.
-
+**gitmojima** is a formal specification that improves the use of emojis in commit messages through
+a more focused and standardized set. It streamlines the process, enhances productivity, and allows
+developers to focus on the content of their commits.
 
 ## Reference
 
@@ -61,8 +62,16 @@ The commit message should be structured as follows:
 
 ## Gitmoji comparison
 
+By achieving a balance between simplicity and coverage, gitmojima provides:
+
+* **Streamlined Selection**: to simplify decision-making for developers.
+* **Enhanced Comprehension**: to reduce confusion and improve understanding.
+* **Improved Standardization**: to promote consistency with a formal specification.
+* **Increased Efficiency**: to save time, improve communication and enhance productivity.
+
+In details:
+
 * only 12 emojis vs 73+
-* concise shortcodes for ease of use
 * 10 main categories for development
     * ⚡️ for any kind of enhancement (covers ⚡️,💄,📈,🌐,✏️,👽️,🍱,♿️,💡,💬,🗃️,🔊,🔇,🚸,📱,🥚,🔍️,🌱,🚩,💫,🛂,👔,🩺,🧑‍💻,🧵,🦺)
     * 🐛 for all fixes (covers 🐛,🚑️,🔒️,🥅,🩹)
@@ -76,10 +85,12 @@ The commit message should be structured as follows:
     * 🔖 for version tags and deployment (covers 🚀,🔖)
 * 2 categories for git operations
     * ⏪️ and 🔀 (unchanged)
-* not covered because they:
+* some categories are not covered, because they:
     * are only aimed at features or exploratory branches (🚧,⚗️,🧐)
     * are not part of a typical or sane git workflow (🔐,🍻,📦️,📸)
     * are not self explanatory in how they should be actually used (👥,🏷️)
+* concise shortcodes for main categories
+* easy to use and easy to remember
 
 ## References
 
