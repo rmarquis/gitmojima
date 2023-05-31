@@ -39,7 +39,7 @@ developers to focus on the content of their commits.
 | ⏪️ | `:rewind:`                    | Revert changes |
 | 🔀 | `:twisted_rightwards_arrows:` | Merge branches |
 
-## Example of usage
+## Specification
 
 To benefit from an explicit commit history, make use of the [Conventional Commits specification](https://www.conventionalcommits.org/en/v1.0.0/#summary)
 structure.
@@ -54,11 +54,19 @@ The commit message should be structured as follows:
 [footer(s)?]
 ```
 
-- `emoji`: An emoji from the list.
-- `scope`: An optional string that adds contextual information for the scope of the change.
-- `description`: A brief explanation of the change.
-- `body`: An optional longer explanation of the change.
-- `footer(s)`: optional strings that reflect an important information.
+- `emoji`: An emoji shortcode from the list
+    * Use *text shortcode* rather than unicode notation
+- `scope`: An optional string that adds contextual information for the scope of the change
+- `description`: A brief explanation of the change
+    * Limit the subject line to 50 characters (not including the shortcode length)
+    * Capitalize the subject line
+    * Do not end the subject line with a period
+    * Use the imperative mood in the subject line
+- `body`: An optional longer explanation of the change
+    * Separate subject from body with a blank line
+    * Wrap the body at 72 characters
+    * Use the body to explain *what* and *why* vs. *how*
+- `footer(s)`: optional strings that reflect an important information
 
 ## Gitmoji comparison
 
