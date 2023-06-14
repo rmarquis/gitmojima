@@ -133,6 +133,30 @@ In details:
 * concise shortcodes for main categories
 * easy to use and easy to remember
 
+## Dependabot
+
+If using [dependabot](https://docs.github.com/en/code-security/dependabot), you can
+[customize dependency updates](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/customizing-dependency-updates)
+to correspond to the above specification.
+
+In `.github/dependabot.yml`, use make use of the `commit-message` option. For example:
+
+```
+version: 2
+updates:
+  - package-ecosystem: "gradle"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    commit-message:
+      # Prefix all commit messages with emoji
+      prefix: ":package: "
+      include: "scope"
+```
+
+See [Configuration options](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file)
+fro all available options.
+
 ## References
 
 * [Conventional Commits](https://www.conventionalcommits.org/)
