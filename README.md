@@ -101,6 +101,30 @@ Resolves: #123
 See also: #456, #789
 ```
 
+## Dependabot
+
+If using [dependabot](https://docs.github.com/en/code-security/dependabot), you can
+[customize dependency updates](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/customizing-dependency-updates)
+to correspond to the above specification.
+
+In `.github/dependabot.yml`, use make use of the `commit-message` option. For example:
+
+```
+version: 2
+updates:
+- package-ecosystem: "gradle"
+directory: "/"
+schedule:
+interval: "weekly"
+commit-message:
+# Prefix all commit messages with emoji
+prefix: ":package: "
+include: "scope"
+```
+
+See [Configuration options](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file)
+for all available options.
+
 ## Gitmoji comparison
 
 By achieving a balance between simplicity and coverage, gitmojima provides:
@@ -132,30 +156,6 @@ In details:
     * are not self explanatory in how they should be actually used (👥,🏷️)
 * concise shortcodes for main categories
 * easy to use and easy to remember
-
-## Dependabot
-
-If using [dependabot](https://docs.github.com/en/code-security/dependabot), you can
-[customize dependency updates](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/customizing-dependency-updates)
-to correspond to the above specification.
-
-In `.github/dependabot.yml`, use make use of the `commit-message` option. For example:
-
-```
-version: 2
-updates:
-  - package-ecosystem: "gradle"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-    commit-message:
-      # Prefix all commit messages with emoji
-      prefix: ":package: "
-      include: "scope"
-```
-
-See [Configuration options](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file)
-fro all available options.
 
 ## References
 
