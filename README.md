@@ -19,8 +19,16 @@ current gitmoji set consists of an extensive collection of 73 items, leading to 
 * The lack of clarity in provided emoji usage explanations hinders standardization.
 
 **gitmojima** is a formal specification that improves the use of emojis in commit messages through
-a more focused and standardized set. It streamlines the process, enhances productivity, and allows
-developers to focus on the content of their commits.
+a more focused and standardized set.
+
+By achieving a balance between simplicity and coverage, gitmojima provides:
+
+* **streamlined selection**: to simplify decision-making for developers.
+* **enhanced comprehension**: to reduce confusion and improve understanding.
+* **improved standardization**: to promote consistency with a formal specification.
+* **increased efficiency**: to save time, improve communication and enhance productivity.
+
+In a nutshell, it allows developers to focus on the content of their commits.
 
 ## Reference
 
@@ -125,39 +133,6 @@ include: "scope"
 
 See [Configuration options](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file)
 for all available options.
-
-## Gitmoji comparison
-
-By achieving a balance between simplicity and coverage, gitmojima provides:
-
-* **Streamlined Selection**: to simplify decision-making for developers.
-* **Enhanced Comprehension**: to reduce confusion and improve understanding.
-* **Improved Standardization**: to promote consistency with a formal specification.
-* **Increased Efficiency**: to save time, improve communication and enhance productivity.
-
-In details:
-
-* only 13 emojis vs 73+
-* 10 main categories for development
-    * ✨ for new features (covers ✨,🎉,💩,💥)
-    * 🐛 for all fixes (covers 🐛,🚑️,🔒️,🥅,🩹)
-    * ⚡️ for any kind of enhancement (covers ⚡️,📈,🌐,✏️,👽️,♿️,💡,💬,🗃️,🔊,🔇,🚸,🥚,🔍️,🌱,🚩,🛂,👔,🩺,🧑‍💻,🧵,🦺)
-    * 📝 for documentation and license (covers 📝,📄,💸)
-    * 🔧 for configuration and development files (covers 🔧,🔨,🙈)
-    * 🧱 for infrastructure (covers 👷,💚,🧱)
-    * 🎨 for UI and style changes (covers 🎨,💄,🍱,📱,💫)
-    * 🧪 for tests (covers ✅,🧪,🤡)
-    * ♻️ for refactoring (covers 🔥,🚨,♻️,🚚,🏗️,🗑️,⚰️)
-    * 📦️ for dependency management (covers ➕,➖,⬇️,⬆️,📌)
-    * 🔖 for version tags and deployment (covers 🚀,🔖)
-* 2 categories for git operations
-    * ⏪️ and 🔀 (unchanged)
-* some categories are not covered, because they:
-    * are only aimed at features or exploratory branches (🚧,⚗️,🧐)
-    * are not part of a typical or sane git workflow (🔐,🍻,📦️,📸)
-    * are not self explanatory in how they should be actually used (👥,🏷️)
-* concise shortcodes for main categories
-* easy to use and easy to remember
 
 ## References
 
