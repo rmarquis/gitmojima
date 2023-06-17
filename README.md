@@ -11,12 +11,13 @@ exist, stand out and have meaning.
 ## Purpose
 
 [gitmoji](https://gitmoji.dev/) enhances commit message readability by using emojis. However, the
-current gitmoji set consists of an extensive collection of 73 items, leading to several challenges:
+current gitmoji set consists of an extensive collection of 73 items.
+This sheer amount of available emojis leads to several challenges:
 
-* It is overwhelming and causes cognitive hindrance when efficiently using them.
-* Navigating the commit history becomes challenging due to the sheer volume of emojis.
-* Its abundance of emojis often leads to confusion and difficulty in understanding their intended meaning.
-* The lack of clarity in provided emoji usage explanations hinders standardization.
+* It is overwhelming, making it hard to select an appropriate intent.
+* It leads to confusion and difficulty in understanding the intended meaning.
+* It lacks clarity in usage explanation, making commit history navigation difficult.
+* It hinders standardization.
 
 **gitmojima** is a formal specification that improves the use of emojis in commit messages through
 a *more focused* and *standardized set*.
