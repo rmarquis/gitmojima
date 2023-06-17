@@ -29,10 +29,10 @@ developers to focus on the content of their commits.
 | ✨ | `:sparkles:`                  | feat     | Introduce new features |
 | 🐛 | `:bug:`                       | fix      | Fix a bug |
 | ⚡️ | `:zap:`                       | perf     | Improve code |
-| 🎨 | `:art:`                       | style    | Add or update UI or style files |
 | 📝 | `:memo:`                      | docs     | Add or update documentation or license |
 | 🔧 | `:wrench:`                    | config   | Add or update configuration or development files |
 | 🧱 | `:bricks:`                    | ci       | Add or update infrastructure build system |
+| 🎨 | `:art:`                       | style    | Add or update UI or style files |
 | 🧪 | `:test_tube:`                 | test     | Add or update tests |
 | ♻️ | `:recycle:`                   | refactor | Refactor code |
 | 📦️ | `:package:`                   | chore    | Manage dependencies |
@@ -142,10 +142,10 @@ In details:
     * ✨ for new features (covers ✨,🎉,💩,💥)
     * 🐛 for all fixes (covers 🐛,🚑️,🔒️,🥅,🩹)
     * ⚡️ for any kind of enhancement (covers ⚡️,📈,🌐,✏️,👽️,♿️,💡,💬,🗃️,🔊,🔇,🚸,🥚,🔍️,🌱,🚩,🛂,👔,🩺,🧑‍💻,🧵,🦺)
-    * 🎨 for UI and style changes (covers 🎨,💄,🍱,📱,💫)
     * 📝 for documentation and license (covers 📝,📄,💸)
     * 🔧 for configuration and development files (covers 🔧,🔨,🙈)
     * 🧱 for infrastructure (covers 👷,💚,🧱)
+    * 🎨 for UI and style changes (covers 🎨,💄,🍱,📱,💫)
     * 🧪 for tests (covers ✅,🧪,🤡)
     * ♻️ for refactoring (covers 🔥,🚨,♻️,🚚,🏗️,🗑️,⚰️)
     * 📦️ for dependency management (covers ➕,➖,⬇️,⬆️,📌)
