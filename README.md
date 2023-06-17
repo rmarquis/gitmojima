@@ -46,7 +46,6 @@ In a nutshell, it allows developers to focus on the content of their commits.
 | 📦️ | `:package:`                   | chore    | Manage dependencies |
 | 🔖 | `:bookmark:`                  | build    | Tag or deploy code |
 | ⏪️ | `:rewind:`                    | revert   | Revert changes |
-| 🔀 | `:twisted_rightwards_arrows:` | merge    | Merge branches |
 
 ## Specification
 
