@@ -29,6 +29,7 @@ developers to focus on the content of their commits.
 | ✨ | `:sparkles:`                  | Introduce new features |
 | 🐛 | `:bug:`                       | Fix a bug |
 | ⚡️ | `:zap:`                       | Improve code |
+| 🎨 | `:art:`                       | Add or update UI or style files |
 | 📝 | `:memo:`                      | Add or update documentation or license |
 | 🔧 | `:wrench:`                    | Add or update configuration or development files |
 | 🧱 | `:bricks:`                    | Add or update infrastructure build system |
@@ -136,16 +137,17 @@ By achieving a balance between simplicity and coverage, gitmojima provides:
 
 In details:
 
-* only 12 emojis vs 73+
+* only 13 emojis vs 73+
 * 10 main categories for development
     * ✨ for new features (covers ✨,🎉,💩,💥)
     * 🐛 for all fixes (covers 🐛,🚑️,🔒️,🥅,🩹)
-    * ⚡️ for any kind of enhancement (covers ⚡️,💄,📈,🌐,✏️,👽️,🍱,♿️,💡,💬,🗃️,🔊,🔇,🚸,📱,🥚,🔍️,🌱,🚩,💫,🛂,👔,🩺,🧑‍💻,🧵,🦺)
+    * ⚡️ for any kind of enhancement (covers ⚡️,📈,🌐,✏️,👽️,♿️,💡,💬,🗃️,🔊,🔇,🚸,🥚,🔍️,🌱,🚩,🛂,👔,🩺,🧑‍💻,🧵,🦺)
+    * 🎨 for UI and style changes (covers 🎨,💄,🍱,📱,💫)
     * 📝 for documentation and license (covers 📝,📄,💸)
     * 🔧 for configuration and development files (covers 🔧,🔨,🙈)
     * 🧱 for infrastructure (covers 👷,💚,🧱)
     * 🧪 for tests (covers ✅,🧪,🤡)
-    * ♻️ for refactoring (covers 🎨,🔥,🚨,♻️,🚚,🏗️,🗑️,⚰️)
+    * ♻️ for refactoring (covers 🔥,🚨,♻️,🚚,🏗️,🗑️,⚰️)
     * 📦️ for dependency management (covers ➕,➖,⬇️,⬆️,📌)
     * 🔖 for version tags and deployment (covers 🚀,🔖)
 * 2 categories for git operations
