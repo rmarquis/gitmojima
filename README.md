@@ -24,21 +24,21 @@ developers to focus on the content of their commits.
 
 ## Reference
 
-| Emoji | Shortcode                  | Description |
-|-------|----------------------------|------------|
-| ✨ | `:sparkles:`                  | Introduce new features |
-| 🐛 | `:bug:`                       | Fix a bug |
-| ⚡️ | `:zap:`                       | Improve code |
-| 🎨 | `:art:`                       | Add or update UI or style files |
-| 📝 | `:memo:`                      | Add or update documentation or license |
-| 🔧 | `:wrench:`                    | Add or update configuration or development files |
-| 🧱 | `:bricks:`                    | Add or update infrastructure build system |
-| 🧪 | `:test_tube:`                 | Add or update tests |
-| ♻️ | `:recycle:`                   | Refactor code |
-| 📦️ | `:package:`                   | Manage dependencies |
-| 🔖 | `:bookmark:`                  | Tag or deploy code |
-| ⏪️ | `:rewind:`                    | Revert changes |
-| 🔀 | `:twisted_rightwards_arrows:` | Merge branches |
+| Emoji | Shortcode                  | Type     | Description            |
+|-------|----------------------------|----------|------------------------|
+| ✨ | `:sparkles:`                  | feat     | Introduce new features |
+| 🐛 | `:bug:`                       | fix      | Fix a bug |
+| ⚡️ | `:zap:`                       | perf     | Improve code |
+| 🎨 | `:art:`                       | style    | Add or update UI or style files |
+| 📝 | `:memo:`                      | docs     | Add or update documentation or license |
+| 🔧 | `:wrench:`                    | config   | Add or update configuration or development files |
+| 🧱 | `:bricks:`                    | ci       | Add or update infrastructure build system |
+| 🧪 | `:test_tube:`                 | test     | Add or update tests |
+| ♻️ | `:recycle:`                   | refactor | Refactor code |
+| 📦️ | `:package:`                   | chore    | Manage dependencies |
+| 🔖 | `:bookmark:`                  | build    | Tag or deploy code |
+| ⏪️ | `:rewind:`                    | revert   | Revert changes |
+| 🔀 | `:twisted_rightwards_arrows:` | merge    | Merge branches |
 
 ## Specification
 
