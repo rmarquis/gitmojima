@@ -26,9 +26,9 @@ developers to focus on the content of their commits.
 
 | Emoji | Shortcode                  | Description |
 |-------|----------------------------|------------|
-| ⚡️ | `:zap:`                       | Improve code |
-| 🐛 | `:bug:`                       | Fix a bug |
 | ✨ | `:sparkles:`                  | Introduce new features |
+| 🐛 | `:bug:`                       | Fix a bug |
+| ⚡️ | `:zap:`                       | Improve code |
 | 📝 | `:memo:`                      | Add or update documentation or license |
 | 🔧 | `:wrench:`                    | Add or update configuration or development files |
 | 🧱 | `:bricks:`                    | Add or update infrastructure build system |
@@ -138,9 +138,9 @@ In details:
 
 * only 12 emojis vs 73+
 * 10 main categories for development
-    * ⚡️ for any kind of enhancement (covers ⚡️,💄,📈,🌐,✏️,👽️,🍱,♿️,💡,💬,🗃️,🔊,🔇,🚸,📱,🥚,🔍️,🌱,🚩,💫,🛂,👔,🩺,🧑‍💻,🧵,🦺)
-    * 🐛 for all fixes (covers 🐛,🚑️,🔒️,🥅,🩹)
     * ✨ for new features (covers ✨,🎉,💩,💥)
+    * 🐛 for all fixes (covers 🐛,🚑️,🔒️,🥅,🩹)
+    * ⚡️ for any kind of enhancement (covers ⚡️,💄,📈,🌐,✏️,👽️,🍱,♿️,💡,💬,🗃️,🔊,🔇,🚸,📱,🥚,🔍️,🌱,🚩,💫,🛂,👔,🩺,🧑‍💻,🧵,🦺)
     * 📝 for documentation and license (covers 📝,📄,💸)
     * 🔧 for configuration and development files (covers 🔧,🔨,🙈)
     * 🧱 for infrastructure (covers 👷,💚,🧱)
