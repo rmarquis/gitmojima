@@ -32,20 +32,20 @@ In a nutshell, it allows developers to focus on the content of their commits.
 
 ## Reference
 
-| Emoji | Shortcode                  | Type     | Description            |
-|-------|----------------------------|----------|------------------------|
-| ✨ | `:sparkles:`                  | feat     | Introduce new features |
-| 🐛 | `:bug:`                       | fix      | Fix a bug |
-| ⚡️ | `:zap:`                       | perf     | Improve code |
-| 📝 | `:memo:`                      | docs     | Add or update documentation or license |
-| 🔧 | `:wrench:`                    | config   | Add or update configuration or development files |
-| 🧱 | `:bricks:`                    | ci       | Add or update infrastructure build system |
-| 🎨 | `:art:`                       | style    | Add or update UI or style files |
-| 🧪 | `:test_tube:`                 | test     | Add or update tests |
-| ♻️ | `:recycle:`                   | refactor | Refactor code |
-| 📦️ | `:package:`                   | chore    | Manage dependencies |
-| 🔖 | `:bookmark:`                  | build    | Tag or deploy code |
-| ⏪️ | `:rewind:`                    | revert   | Revert changes |
+| Emoji | Shortcode                  | Conventional type | Description            |
+|-------|----------------------------|-------------------|------------------------|
+| ✨ | `:sparkles:`                  | feat              | Introduce new features |
+| 🐛 | `:bug:`                       | fix               | Fix a bug |
+| ⚡️ | `:zap:`                       | perf              | Improve code |
+| 📝 | `:memo:`                      | docs              | Add or update documentation or license |
+| 🔧 | `:wrench:`                    | config            | Add or update configuration or development files |
+| 🧱 | `:bricks:`                    | ci                | Add or update infrastructure build system |
+| 🎨 | `:art:`                       | style             | Add or update UI or style files |
+| 🧪 | `:test_tube:`                 | test              | Add or update tests |
+| ♻️ | `:recycle:`                   | refactor          | Refactor code |
+| 📦️ | `:package:`                   | chore             | Manage dependencies |
+| 🔖 | `:bookmark:`                  | build             | Tag or deploy code |
+| ⏪️ | `:rewind:`                    | revert            | Revert changes |
 
 ## Specification
 
