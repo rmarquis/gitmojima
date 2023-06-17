@@ -19,14 +19,14 @@ current gitmoji set consists of an extensive collection of 73 items, leading to 
 * The lack of clarity in provided emoji usage explanations hinders standardization.
 
 **gitmojima** is a formal specification that improves the use of emojis in commit messages through
-a more focused and standardized set.
+a *more focused* and *standardized set*.
 
 By achieving a balance between simplicity and coverage, gitmojima provides:
 
-* **streamlined selection**: to simplify decision-making for developers.
-* **enhanced comprehension**: to reduce confusion and improve understanding.
-* **improved standardization**: to promote consistency with a formal specification.
-* **increased efficiency**: to save time, improve communication and enhance productivity.
+* **streamlined selection** to simplify decision-making.
+* **enhanced comprehension** to reduce confusion.
+* **improved standardization** to promote consistency.
+* **increased efficiency** to enhance productivity.
 
 In a nutshell, it allows developers to focus on the content of their commits.
 
