@@ -39,13 +39,13 @@ In a nutshell, it allows developers to focus on the content of their commits.
 | :bug:       | `:bug:`                    | fix               | Fix a bug |
 | :zap:       | `:zap:`                    | perf              | Improve code |
 | :memo:      | `:memo:`                   | docs              | Add or update documentation or license |
-| :wrench:    | `:wrench:`                 | config            | Add or update configuration or development files |
+| :wrench:    | `:wrench:`                 | build             | Add or update configuration or development files |
 | :bricks:    | `:bricks:`                 | ci                | Add or update infrastructure build system |
 | :art:       | `:art:`                    | style             | Add or update UI or style files |
 | :test_tube: | `:test_tube:`              | test              | Add or update tests |
 | :recycle:   | `:recycle:`                | refactor          | Refactor code |
 | :package:   | `:package:`                | chore             | Manage dependencies |
-| :bookmark:  | `:bookmark:`               | build             | Tag or deploy code |
+| :bookmark:  | `:bookmark:`               | chore             | Tag or deploy code |
 | :rewind:    | `:rewind:`                 | revert            | Revert changes |
 
 ## Specification
