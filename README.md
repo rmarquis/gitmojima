@@ -1,6 +1,6 @@
 # gitmojima 😊
 
-**gitmojima** is a [gitmoji](https://gitmoji.dev/)-like set, aimed at minimalism and productivity.
+**gitmojima** is an emoji guide for commit messages, aimed at minimalism and productivity.
 
 > **When Less is More: minimalism and beyond**
 >
@@ -10,26 +10,11 @@ exist, stand out and have meaning.
 
 ## Purpose
 
-[gitmoji](https://gitmoji.dev/) enhances commit message readability by using emojis. However, the
-current gitmoji set consists of an extensive collection of 73 items.
-This sheer amount of available emojis leads to several challenges:
+[gitmoji](https://gitmoji.dev/) aims to enhance commit message readability by using emojis. However, the current set of 73 items is overwhelming, making it difficult to select the right emoji and understand their intended meanings, which ironically complicates commit history navigation.
 
-* It is overwhelming, making it hard to select an appropriate intent.
-* It leads to confusion and difficulty in understanding the intended meaning.
-* It lacks clarity in usage explanation, making commit history navigation difficult.
-* It hinders standardization.
+**gitmojima** is a formal specification that refines emoji usage in commit messages through a more focused set, balancing simplicity and coverage. This allows developers to focus on the actual content of their commits.
 
-**gitmojima** is a formal specification that improves the use of emojis in commit messages through
-a *more focused* and *standardized set*.
-
-By achieving a balance between simplicity and coverage, gitmojima provides:
-
-* **streamlined selection** to simplify decision-making.
-* **enhanced comprehension** to reduce confusion.
-* **improved standardization** to promote consistency.
-* **increased efficiency** to enhance productivity.
-
-In a nutshell, it allows developers to focus on the content of their commits.
+It aligns with the [Conventional Commits](https://www.conventionalcommits.org/) specification.
 
 ## Reference
 
